@@ -1,0 +1,31 @@
+%Base do banco modificada.
+@relation Bank
+@attribute 'age' numeric
+@attribute 'job' {'admin.', 'technician', 'services', 'management', 'retired','blue-collar', 'unemployed', 'entrepreneur', 'housemaid', 'unknown', 'self-employed', 'student'}
+@attribute 'marital' {'married', 'single', 'divorced'}
+@attribute 'education' {'secondary', 'tertiary', 'primary', 'unknown'}
+@attribute 'default' {'no', 'yes'}
+@attribute 'balance' numeric
+@attribute 'housing' {'yes', 'no'}
+@attribute 'loan' {'no', 'yes'}
+@attribute 'contact' {'unknown', 'cellular', 'telephone'}
+@attribute 'day' numeric
+@attribute 'month' {'may', 'jun', 'jul', 'aug', 'oct', 'nov', 'dec', 'jan', 'feb','mar', 'apr', 'sep'}
+@attribute 'duration' numeric
+@attribute 'campaign' numeric
+@attribute 'pdays' numeric
+@attribute 'previous' numeric
+@attribute 'poutcome' {'unknown', 'other', 'failure', 'success'}
+@attribute 'deposit' {'yes', 'no'}
+@data
+78,retired,divorced,primary,no,1389,no,no,cellular,8,apr,335,1,-1,0,unknown,yes
+30,management,single,tertiary,no,398,no,no,cellular,27,oct,102,1,180,3,success,yes
+69,retired,divorced,tertiary,no,247,no,no,cellular,22,apr,138,2,-1,0,unknown,yes
+48,entrepreneur,married,secondary,no,0,no,yes,cellular,28,jul,431,2,-1,0,unknown,yes
+31,admin.,single,secondary,no,131,yes,no,cellular,15,jun,151,1,-1,0,unknown,yes
+57,retired,single,primary,no,604,no,no,cellular,19,nov,187,1,-1,0,unknown,no
+45,admin.,divorced,secondary,no,0,yes,no,cellular,17,nov,102,1,-1,0,unknown,no
+48,blue-collar,married,secondary,no,238,yes,yes,cellular,2,jun,118,2,81,1,success,no
+34,admin.,single,secondary,no,673,yes,no,cellular,29,jan,89,1,260,2,failure,no
+37,entrepreneur,married,tertiary,no,7944,no,no,cellular,21,nov,102,1,-1,0,unknown,no
+32,management,married,tertiary,no,3696,no,no,unknown,21,may,315,3,-1,0,unknown,no

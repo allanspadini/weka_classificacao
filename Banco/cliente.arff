@@ -1,0 +1,21 @@
+%Base do banco modificada.
+@relation Bank
+@attribute 'age' numeric
+@attribute 'job' {'admin.', 'technician', 'services', 'management', 'retired','blue-collar', 'unemployed', 'entrepreneur', 'housemaid', 'unknown', 'self-employed', 'student'}
+@attribute 'marital' {'married', 'single', 'divorced'}
+@attribute 'education' {'secondary', 'tertiary', 'primary', 'unknown'}
+@attribute 'default' {'no', 'yes'}
+@attribute 'balance' numeric
+@attribute 'housing' {'yes', 'no'}
+@attribute 'loan' {'no', 'yes'}
+@attribute 'contact' {'unknown', 'cellular', 'telephone'}
+@attribute 'day' numeric
+@attribute 'month' {'may', 'jun', 'jul', 'aug', 'oct', 'nov', 'dec', 'jan', 'feb','mar', 'apr', 'sep'}
+@attribute 'duration' numeric
+@attribute 'campaign' numeric
+@attribute 'pdays' numeric
+@attribute 'previous' numeric
+@attribute 'poutcome' {'unknown', 'other', 'failure', 'success'}
+@attribute 'deposit' {'yes', 'no'}
+@data
+32,management,married,tertiary,no,794,yes,yes,cellular,9,jul,1014,1,-1,0,unknown,?
